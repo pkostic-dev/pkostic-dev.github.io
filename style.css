@@ -1,0 +1,13 @@
+* {
+	font-family: sans-serif;
+}
+h1 {
+	text-align: center;
+}
+footer {
+	background-color: #ececec;
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+	text-align: center;
+}
