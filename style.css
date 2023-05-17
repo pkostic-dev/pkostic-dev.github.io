@@ -1,9 +1,11 @@
 * {
 	font-family: sans-serif;
 }
-h1 {
+
+header, main {
 	text-align: center;
 }
+
 footer {
 	background-color: #ececec;
 	width: 100%;
