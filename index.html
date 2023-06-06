@@ -10,14 +10,42 @@
 		<!-- Changes the favicon to an emoji of choice -->
 		<link rel="icon" href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;🐀&lt;/text&gt;&lt;/svg&gt;">
 		<link rel="stylesheet" href="style.css">
+
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Karla&family=Rubik:ital@1&display=swap" rel="stylesheet">
 	</head>
 
 	<body>
 		<header>
-			<h1><span aria-hidden="true">⚠️ <time datetime="2023-05-17">[17.05.2023]</time> </span>This website is a work in progress.</h1>
+			<nav id="menu">
+				<ul class="drop-shadow-down">
+					<li><a href="#about">About</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#education">Education</a></li>
+				</ul>
+			</nav>
 		</header>
 		<main>
-			<img src="img/rat_construction.jpg" alt="A rat dressed as a construction worker">
+			<section id="about">
+				<h1 class="section-header left-text">About</h1>
+				<img id="profile-picture" class="drop-shadow-down" src="img/rat_avatar.png" alt="A photo of Predrag Kostic">
+				<h2 class="header">Predrag Kostic</h1>
+				<h3 class="subheader">Multidisciplinary Artist and Computer Scientist</h2>
+				<p class="text justify-text">I'm a student in accessibility-related technology. I like designing and programming games and other peculiar software.</p>
+				<a class="github-link" href="https://github.com/pkostic-dev">👉 View My Github 👈</a>
+			</section>
+			<section id="projects">
+				<h1 class="section-header left-text">Projects</h1>
+				<p class="text justify-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+			</section>
+			<section id="education">
+				<h1 class="section-header left-text">Education</h1>
+				<p class="text justify-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+			</section>
+			<h1 class="text center-text"><span aria-hidden="true">⚠️ <time datetime="2023-06-06">[06.06.2023]</time> </span>This website is a work in progress. ⚠️</h1>
+			<img class="drop-shadow" src="img/rat_construction.jpg" alt="A rat dressed as a construction worker">
 		</main>
 		<footer>
 			<p>© 2023, Predrag Kostic. All rights reserved.</p>
